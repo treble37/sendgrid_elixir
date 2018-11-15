@@ -59,7 +59,7 @@ defmodule SendGrid.Mailer do
     %{
       personalizations: [personalizations],
       from: email.from,
-      subject: email.subject,
+      # subject: email.subject,
       content: email.content,
       reply_to: email.reply_to,
       send_at: email.send_at,
